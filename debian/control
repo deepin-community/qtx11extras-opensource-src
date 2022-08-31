@@ -1,0 +1,62 @@
+Source: qtx11extras-opensource-src
+Section: libs
+Priority: optional
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Uploaders: Deepin Packages Builder <packages@deepin.org>
+Build-Depends: debhelper-compat (= 13),
+               pkg-kde-tools,
+               qtbase5-dev (>= 5.15.3~),
+               qtbase5-private-dev (>= 5.15.3~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.3~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.3~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.3~) <!nodoc>,
+                     qtbase5-doc-html (>= 5.15.3~) <!nodoc>
+Standards-Version: 4.6.0
+Homepage: https://doc.qt.io/qt-5/qtx11extras-index.html
+
+Package: libqt5x11extras5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libqt5gui5 (<< 5.5)
+Description: Qt 5 X11 extras
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package includes the library to access X11 stuff from within Qt 5.
+
+Package: libqt5x11extras5-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libqt5x11extras5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Description: Qt 5 X11 extras development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package includes the development headers for the X11 extras library.
+
+Package: qtx11extras5-doc
+Architecture: all
+Build-Profiles: <!nodoc>
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 X11 extras documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 X11 extras libraries
+ and binaries.
+
+Package: qtx11extras5-doc-html
+Architecture: all
+Build-Profiles: <!nodoc>
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 X11 extras HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 X11 extras
+ libraries and binaries.

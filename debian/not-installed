@@ -1,2 +1,2 @@
-usr/lib/*/libQt5X11Extras.la
-usr/lib/*/qt5/mkspecs/modules/qt_lib_x11extras_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5X11Extras.la
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/modules/qt_lib_x11extras_private.pri

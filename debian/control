@@ -5,12 +5,12 @@ Maintainer: Deepin Developer <deepin-dev@deepin.org>
 Uploaders: Deepin Packages Builder <packages@deepin.org>
 Build-Depends: debhelper-compat (= 13),
                pkg-kde-tools,
-               qtbase5-dev (>= 5.15.3~),
-               qtbase5-private-dev (>= 5.15.3~)
-Build-Depends-Indep: qdoc-qt5 (>= 5.15.3~) <!nodoc>,
-                     qhelpgenerator-qt5 (>= 5.15.3~) <!nodoc>,
-                     qtattributionsscanner-qt5 (>= 5.15.3~) <!nodoc>,
-                     qtbase5-doc-html (>= 5.15.3~) <!nodoc>
+               qtbase5-dev (>= 5.15.7~),
+               qtbase5-private-dev (>= 5.15.7~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.7~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.7~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.7~) <!nodoc>,
+                     qtbase5-doc-html (>= 5.15.7~) <!nodoc>
 Standards-Version: 4.6.0
 Homepage: https://doc.qt.io/qt-5/qtx11extras-index.html
 

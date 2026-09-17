@@ -1,12 +1,8 @@
-qtx11extras-opensource-src (5.15.8-2+dde) unstable; urgency=medium
+qtx11extras-opensource-src (5.15.8-1+dde) UNRELEASED; urgency=medium
 
-  [ Lu YaNing ]
   * New upstream release (5.15.8).
 
-  [ tunaichao ]
-  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
-
- -- tunaichao <tunaichao@uniontech.com>  Fri, 11 Sep 2026 17:51:34 +0800
+ -- Lu YaNing <luyaning@uniontech.com>  Tue, 31 Jan 2023 14:17:30 +0800
 
 qtx11extras-opensource-src (5.15.7-1+dde) unstable; urgency=medium
 
